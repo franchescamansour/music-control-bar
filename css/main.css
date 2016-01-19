@@ -49,8 +49,16 @@ body {
   width:50px;
 }
 
-.time {
-  position: relative;
+.time-lapsed{
+  position: fixed;
+  top: 32px;
+  left: 60px;
+}
+
+.time-total{
+  position: fixed;
+  top: 32px;
+  right: 10px;
 }
 
 .time-bar {
@@ -61,6 +69,9 @@ body {
   -moz-appearance: none;
   border: 0;
   background-color: #aaa;
+  position: absolute;
+  left: 50px;
+  top: 42px;
 }
 
 .control-heart{
